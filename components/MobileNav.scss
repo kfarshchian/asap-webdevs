@@ -1,0 +1,12 @@
+#navbar{
+    background-color: black;
+}
+#MobileNav{
+    display: none;
+}
+@media screen and (max-width: 942px) {
+    // .logo-container,
+    #MobileNav{
+        display: flex;
+    }
+}
