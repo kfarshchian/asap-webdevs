@@ -1,0 +1,97 @@
+#web-development-SEO-management{
+    padding-top: 150px;
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+  }
+  #web-development-SEO-management-p{
+    color: white !important;
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #web-development-SEO-management-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #web-development-SEO-management-h2{
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    padding: 15px;
+  }
+  #thisPageLink:hover{
+    font-size: 22px; 
+  }
+  #thisPageLink{
+    
+    font-size: 20px;
+    margin-left: 20px;
+    background-color: white;
+    padding: 4px 8px 4px 8px;
+    border-radius: 10px;
+    font-weight: bolder;
+  }
+  #web-development-SEO-management-section-2{
+    // height: 600px;
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+  }
+  #web-development-SEO-management-section-2-container{
+    background-color: white;
+  }
+#web-development-SEO-management-section-2-h2{
+    background-color: white !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    text-align: center;
+    flex-direction: column;
+}
+#thisPageLink-bg-black{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    background-color: Black;
+    padding: 4px 8px 4px 8px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+#thisPageLink-bg-black:hover{
+    font-size: 22px; 
+  }
+#web-development-SEO-management-p-2{
+    color: black !important;
+    background-color: white;
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media screen and (max-width: 1506px) {
+
+    
+}
+@media screen and (max-width: 982px) {
+    #web-development-SEO-management{
+        
+        font-weight: bold;
+      }
+    #web-development-SEO-management-h2{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding: 15px;
+        font-weight: bold;
+      }
+      #web-development-SEO-management-section-2-h2{
+        font-size: 20px;
+        text-align: center;
+        padding: 15px;
+        font-weight: bold;
+      }
+    
+}

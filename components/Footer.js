@@ -5,7 +5,7 @@ import "./Footer.scss";
 const Footer = () => {
   return (
     <div id="footer">
-      <p>hi</p>
+      <h2  id="footer-h2">© ASAP WebDevs | All Rights Reserved</h2>
     </div>
   )
 }

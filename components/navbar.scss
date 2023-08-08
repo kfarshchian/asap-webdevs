@@ -1,6 +1,49 @@
 #navbar{
     background-color: black;
 }
+#pageLink{
+    padding: 4px 8px 8px 8px;
+    border-radius: 10px;
+}
+#pageLink:hover{
+    border: 1px solid white;
+    padding: 2px 8px 2px 8px;
+    color: black;
+    background-color: white;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  /* Styles for the dropdown */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#4F758B;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Style for the dropdown options */
+  .dropdown-content li {
+    display: block;
+  }
+  
+  .dropdown-content li a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .dropdown-content li a:hover {
+    background-color: white;
+    color: black;
+  }
 @media screen and (max-width: 942px) {
     // .logo-container,
     #MainNav{
