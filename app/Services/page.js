@@ -1,6 +1,6 @@
 
 import React from "react";
-import "./Pricing.scss";
+import "./Services.scss";
 
 const Services = () => {
   return (
