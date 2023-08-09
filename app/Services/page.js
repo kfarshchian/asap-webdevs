@@ -2,7 +2,7 @@
 import React from "react";
 import "./Pricing.scss";
 
-const Pricing = () => {
+const Services = () => {
   return (
     <div id="Pricing">
      
@@ -10,4 +10,4 @@ const Pricing = () => {
   )
 }
 
-export default Pricing
+export default Services
