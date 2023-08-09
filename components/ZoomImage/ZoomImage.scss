@@ -1,0 +1,19 @@
+.image-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+  }
+  
+  .zoomable-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+  }
+  
+  .parallax-outer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

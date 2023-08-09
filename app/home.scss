@@ -37,7 +37,7 @@
   #web-development-SEO-management-section-2{
     // height: 600px;
     background-color: white;
-    padding: 15px;
+    // padding: 15px;
     margin-top: 15px;
   }
   #web-development-SEO-management-section-2-container{
@@ -71,6 +71,44 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+#web-development-SEO-management-section-3{
+    padding: 15px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+#web-development-SEO-management-section-3-h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+}
+#Contactform{
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+#contactButton{
+    color: white !important;
+}
+#cardImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cardIcon{
+    color: white;
+    font-size: 100px;
+}
+#cardTitle{
+    color: white;
+}
+#cardBody{
+    color: white;
+}
+
 @media screen and (max-width: 1506px) {
 
     
@@ -93,5 +131,11 @@
         padding: 15px;
         font-weight: bold;
       }
+      #web-development-SEO-management-section-3-h2{
+        font-size: 20px;
+        text-align: center;
+        padding: 15px;
+        font-weight: bold;
+    }
     
 }

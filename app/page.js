@@ -1,7 +1,21 @@
 import React from "react";
 import "./home.scss";
-import { Container } from "@mui/material";
+import {
+  Container,
+  Stack,
+  Card,
+  CardMedia,
+  Typography,
+  CardContent,
+  CardActions,
+} from "@mui/material";
 import Link from "next/link";
+import ZoomImage from "../components/ZoomImage/ZoomImage";
+import ContactForm from "@/components/Contact/ContactForm";
+import ScreenSearchDesktopIcon from "@mui/icons-material/ScreenSearchDesktop";
+import IntegrationInstructionsIcon from "@mui/icons-material/IntegrationInstructions";
+import ConstructionIcon from "@mui/icons-material/Construction";
+import NetworkCheckIcon from "@mui/icons-material/NetworkCheck";
 
 const Home = () => {
   return (
@@ -38,11 +52,147 @@ const Home = () => {
             ASAP WebDevs today and take your online presence to new heights!
           </p>
         </Container>
-        <img
-          id="web-development-SEO-management-img"
+        <ZoomImage
           src="/webdevelopment-1.jpg"
-          alt="Web Development"
+          alt="Web Development and SEO management"
         />
+        {/* icons with info */}
+        <Container>
+          <Stack
+            direction={{ xs: "column", sm: "row" }}
+            id="reverse-mortgage-utah-home-Container-stack-card"
+            sx={{
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+            spacing={{ xs: 1, sm: 2, md: 2 }}
+          >
+            {/* card 1 */}
+            <Card sx={{ maxWidth: 200 }}>
+              <CardMedia
+                id="cardImage"
+                sx={{ height: 140 }}
+                // image="/reverse-mortgage-texas-painting-house-buying.jpg"
+                title="SEO search icon"
+              >
+                <IntegrationInstructionsIcon id="cardIcon" />
+              </CardMedia>
+              <CardContent>
+                <Typography
+                  id="cardTitle"
+                  gutterBottom
+                  variant="h5"
+                  component="div"
+                >
+                  Web Development
+                </Typography>
+                <Typography
+                  id="cardBody"
+                  variant="body2"
+                  color="text.secondary"
+                >
+                  A great website is user-friendly, visually appealing,
+                  informative, responsive, and optimized for seamless navigation
+                  and functionality.
+                </Typography>
+              </CardContent>
+              <CardActions></CardActions>
+            </Card>
+            {/* card 2 */}
+            <Card sx={{ maxWidth: 200 }}>
+              <CardMedia
+                id="cardImage"
+                sx={{ height: 140 }}
+                // image="/reverse-mortgage-texas-painting-house-buying.jpg"
+                title="SEO search icon"
+              >
+                <ScreenSearchDesktopIcon id="cardIcon" />
+              </CardMedia>
+              <CardContent>
+                <Typography
+                  id="cardTitle"
+                  gutterBottom
+                  variant="h5"
+                  component="div"
+                >
+                  SEO Management
+                </Typography>
+                <Typography
+                  id="cardBody"
+                  variant="body2"
+                  color="text.secondary"
+                >
+                  SEO boosts online visibility by optimizing content and
+                  structure, enhancing search engine rankings and organic
+                  traffic.
+                </Typography>
+              </CardContent>
+              <CardActions></CardActions>
+            </Card>
+            {/* card 3 */}
+            <Card sx={{ maxWidth: 200 }}>
+              <CardMedia
+                id="cardImage"
+                sx={{ height: 140 }}
+                // image="/reverse-mortgage-texas-painting-house-buying.jpg"
+                title="SEO search icon"
+              >
+                <ConstructionIcon id="cardIcon" />
+              </CardMedia>
+              <CardContent>
+                <Typography
+                  id="cardTitle"
+                  gutterBottom
+                  variant="h5"
+                  component="div"
+                >
+                  100% Customizable
+                </Typography>
+                <Typography
+                  id="cardBody"
+                  variant="body2"
+                  color="text.secondary"
+                >
+                  A customized website is tailor-made, reflecting unique
+                  branding, design, and functionality to cater to specific
+                  needs.
+                </Typography>
+              </CardContent>
+              <CardActions></CardActions>
+            </Card>
+            {/* card 4 */}
+            <Card sx={{ maxWidth: 200 }}>
+              <CardMedia
+                id="cardImage"
+                sx={{ height: 140 }}
+                // image="/reverse-mortgage-texas-painting-house-buying.jpg"
+                title="SEO search icon"
+              >
+                <NetworkCheckIcon id="cardIcon" />
+              </CardMedia>
+              <CardContent>
+                <Typography
+                  id="cardTitle"
+                  gutterBottom
+                  variant="h5"
+                  component="div"
+                >
+                  Speed and Reliability
+                </Typography>
+                <Typography
+                  id="cardBody"
+                  variant="body2"
+                  color="text.secondary"
+                >
+                  A reliable website loads swiftly, ensuring smooth user
+                  experience, reducing bounce rates, and fostering visitor
+                  trust.
+                </Typography>
+              </CardContent>
+              <CardActions></CardActions>
+            </Card>
+          </Stack>
+        </Container>
         <Container>
           <h2 id="web-development-SEO-management-h2">
             Cutting-Edge Web Development, Top-Tier SEO Management, and Much
@@ -94,6 +244,39 @@ const Home = () => {
               Our Work
             </Link>
           </Container>
+
+          <div id="web-development-SEO-management-section-3">
+            <h2 id="web-development-SEO-management-section-3-h2">
+              Most Recent Client
+            </h2>
+            <Container>
+              <ZoomImage src="/1.jpg" alt="Zoomable Image client work" />
+              <p id="web-development-SEO-management-p">
+                A well-optimized webpage with effective SEO can greatly benefit
+                a loan officer by enhancing their online visibility and
+                attracting targeted traffic searching for loan-related services.
+                Through higher search engine rankings, the webpage establishes
+                credibility and trust, leading to increased lead generation and
+                client conversions. Local SEO strategies can also ensure
+                visibility among potential clients in specific geographic areas.
+                By offering valuable content and clear calls-to-action, the
+                webpage becomes a powerful tool for educating visitors and
+                collecting valuable data on user behavior. Overall, this
+                strategic online presence gives the loan officer a competitive
+                edge, fosters client engagement, and supports business growth.
+              </p>
+              <Link
+                target="_blank"
+                id="thisPageLink"
+                href="https://www.mortgagekenny.com/"
+              >
+                Check It Out
+              </Link>
+            </Container>
+          </div>
+          <div id="Contactform">
+            <ContactForm />
+          </div>
         </div>
       </div>
     </main>
