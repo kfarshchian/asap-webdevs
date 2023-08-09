@@ -1,0 +1,38 @@
+#Pricing{
+    padding-top: 100px;
+    height: 500px;
+    background-image: url("https://i.imgur.com/aZs4Pnd.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: white 0px 0px 15px;
+    // background-size: contain;
+}
+#web-development-SEO-management-services{
+    // padding-top: 150px;
+    
+    color: black;
+    background-color: transparent;
+    font-size: 5vw;
+    text-align: center;
+  }
+  #section1{
+    background-color: transparent;
+  }
+
+
+  @media screen and (max-width: 1506px) {
+
+    
+  }
+  @media screen and (max-width: 982px) {
+      #web-development-SEO-management-services{
+          font-size: 55px;
+          font-weight: bold;
+        }
+    
+      
+  }
