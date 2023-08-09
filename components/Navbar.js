@@ -39,7 +39,7 @@ const Navbar = () => {
                     <Link id="pageLink" href="/About"> About Us</Link>
                   </li>
                   <li className="pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-slate-600  border-white-900  md:hover:bg-transparent">
-                    <Link id="pageLink" href="/our-word">Our Work</Link>
+                    <Link id="pageLink" href="/Our-Work">Our Work</Link>
                   </li>
                   <li className="pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-slate-600  border-white-900  md:hover:bg-transparent">
                     <Link id="pageLink" href="/Services">Services</Link>
