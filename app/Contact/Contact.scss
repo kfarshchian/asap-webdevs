@@ -1,8 +1,20 @@
+#ContactImage{
+  padding-top: 100px;
+    height: 500px;
+    background-image: url("https://i.imgur.com/aZs4Pnd.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
 #web-development-SEO-management-contact{
     padding-top: 150px;
     color: white;
     font-size: 5vw;
     text-align: center;
+    background-color: transparent;
+    text-shadow: black 0px 0px 30px;
   }
 
 
