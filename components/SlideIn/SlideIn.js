@@ -9,22 +9,20 @@ import PageviewIcon from "@mui/icons-material/Pageview";
 
 const SlideIn = () => {
   const [isVisible, setIsVisible] = useState(false);
-  const divRef = useRef(null);
 
   useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.unobserve(entry.target);
-        }
-      });
-    });
+    const handleScroll = () => {
+      const slideInDiv = document.querySelector('.slide-in');
+      const slideInDivPosition = slideInDiv.getBoundingClientRect();
 
-    observer.observe(divRef.current);
+      if (slideInDivPosition.top <= window.innerHeight * 0.75) {
+        setIsVisible(true);
+      }
+    };
 
+    window.addEventListener('scroll', handleScroll);
     return () => {
-      observer.disconnect();
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
@@ -42,8 +40,7 @@ const SlideIn = () => {
         spacing={{ xs: 1, sm: 1, md: 6 }}
       >
         <div
-          ref={divRef}
-          className={isVisible ? "slide-in" : ""}
+          className={`slide-in ${isVisible ? 'visible' : ''}`}
           id="web-development-SEO-management-stack-column-box"
         >
           <WebIcon
@@ -84,7 +81,7 @@ const SlideIn = () => {
           </div>
         </div>
         <div
-          ref={divRef}
+          // ref={divRef}
           className={isVisible ? "slide-in2" : ""}
           id="web-development-SEO-management-stack-column-box"
         >
@@ -126,7 +123,7 @@ const SlideIn = () => {
           />
         </div>
         <div
-          ref={divRef}
+          // ref={divRef}
           className={isVisible ? "slide-in3" : ""}
           id="web-development-SEO-management-stack-column-box"
         >

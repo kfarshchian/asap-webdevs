@@ -1,7 +1,7 @@
 import React from "react";
 import "./Services.scss";
 import { Container } from "@mui/material";
-import SlideIn from "@/components/SlideIn/SlideIn";
+import SlideIn from "@/components/SlideIn";
 
 const Services = () => {
   return (
