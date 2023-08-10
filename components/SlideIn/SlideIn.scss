@@ -12,46 +12,38 @@
 #web-development-SEO-management-H2-P{
   display: flex;
   flex-direction: column;
+  
 }
 #web-development-SEO-management-slideInH2{
   background-color: white;
   padding-bottom: 10px;
   font-size: 25px;
   font-weight: bold;
+  padding: 15px;
 }
 #web-development-SEO-management-slideInP{
   background-color: white;
   display: flex;
-  padding-bottom: 10px;
+  padding: 15px;
+  border-bottom: 2px solid black;
+}
+#web-development-SEO-management-slideIn-price{
+  background-color: white;
+  display: flex;
+  padding: 15px;
+  border-bottom: 2px solid black;
 }
 .slide-in {
     
     animation: slideInAnimation 0.5s ease-in forwards;
     transform: translateX(-800%);
   }
-  
-  // @keyframes slideInAnimation {
-  //   0% {
-  //     transform: translateX(200%);
-  //   }
-  //   100% {
-  //     transform: translateX(400%);
-  //   }
-  // }
   .slide-in2 {
     animation: slideInAnimation 0.5s ease-in forwards;
     transform: translateX(800%);
     animation-delay: .5s;
   }
-  
-  // @keyframes slideInAnimation {
-  //   0% {
-  //     transform: translateX(200%);
-  //   }
-  //   100% {
-  //     transform: translateX(0);
-  //   }
-  // }
+ 
   .slide-in3 {
     animation: slideInAnimation 0.5s ease-in forwards;
     transform: translateX(800%);
