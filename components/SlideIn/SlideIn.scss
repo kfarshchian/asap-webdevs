@@ -1,0 +1,80 @@
+#web-development-SEO-management-stack-column-box{
+  background-color: white;
+  width: auto;
+  height: auto;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  font-size: large;
+  align-items: center;
+  border-radius: 25px;
+}
+#web-development-SEO-management-H2-P{
+  display: flex;
+  flex-direction: column;
+}
+#web-development-SEO-management-slideInH2{
+  background-color: white;
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+#web-development-SEO-management-slideInP{
+  background-color: white;
+  display: flex;
+  padding-bottom: 10px;
+}
+.slide-in {
+    
+    animation: slideInAnimation 0.5s ease-in forwards;
+    transform: translateX(1000%);
+  }
+  
+  // @keyframes slideInAnimation {
+  //   0% {
+  //     transform: translateX(200%);
+  //   }
+  //   100% {
+  //     transform: translateX(400%);
+  //   }
+  // }
+  .slide-in2 {
+    animation: slideInAnimation 0.5s ease-in forwards;
+    transform: translateX(700%);
+    animation-delay: .5s;
+  }
+  
+  // @keyframes slideInAnimation {
+  //   0% {
+  //     transform: translateX(200%);
+  //   }
+  //   100% {
+  //     transform: translateX(0);
+  //   }
+  // }
+  .slide-in3 {
+    animation: slideInAnimation 0.5s ease-in forwards;
+    transform: translateX(200%);
+    animation-delay: .85s;
+  }
+  
+  @keyframes slideInAnimation {
+    0% {
+      transform: translateX(200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @media screen and (max-width: 1506px) {
+
+    
+  }
+  @media screen and (max-width: 982px) {
+    #web-development-SEO-management-stack-column-box{
+      flex-direction: column;
+
+    }
+      
+  }
