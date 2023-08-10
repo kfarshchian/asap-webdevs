@@ -21,10 +21,13 @@ const Home = () => {
   return (
     <main>
       <div id="Home">
-        <Container>
-          <h1 id="web-development-SEO-management">
+        <div id="topImage">
+        <h1 id="web-development-SEO-management">
             Web Development and SEO management
           </h1>
+        </div>
+        <Container>
+          
           <p id="web-development-SEO-management-p">
             Welcome to ASAP WebDevs, your one-stop destination for comprehensive
             web development and SEO management services. We understand that a
@@ -52,10 +55,12 @@ const Home = () => {
             ASAP WebDevs today and take your online presence to new heights!
           </p>
         </Container>
+        <div id="section1">
         <ZoomImage
           src="/webdevelopment-1.jpg"
           alt="Web Development and SEO management"
         />
+        </div>
         {/* icons with info */}
         <Container>
           <Stack

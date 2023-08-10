@@ -1,8 +1,26 @@
+#topImage{
+  padding-top: 100px;
+    height: 500px;
+    background-image: url("https://i.imgur.com/Dnsl1zK.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-shadow: black 0px 0px 15px;
+}
+#section1{
+  // height: 600px;
+  max-height: 600px;
+  overflow: hidden;
+}
 #web-development-SEO-management{
     padding-top: 150px;
     color: white;
     font-size: 5vw;
     text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: transparent;
   }
   #web-development-SEO-management-p{
     color: white !important;

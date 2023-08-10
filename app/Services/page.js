@@ -2,6 +2,7 @@ import React from "react";
 import "./Services.scss";
 import { Container } from "@mui/material";
 import SlideIn from "@/components/SlideIn";
+import ContactForm from "@/components/Contact/ContactForm";
 
 const Services = () => {
   return (
@@ -58,6 +59,9 @@ const Services = () => {
       <Container id="section1">
         <SlideIn />
       </Container>
+      <div id="Contactform">
+            <ContactForm />
+          </div>
     </>
   );
 };

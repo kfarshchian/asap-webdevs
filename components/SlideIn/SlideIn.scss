@@ -27,12 +27,13 @@
   padding: 15px;
   border-bottom: 2px solid black;
 }
-#web-development-SEO-management-slideIn-price{
+#web-development-SEO-management-slideInP-price{
   background-color: white;
   display: flex;
   padding: 15px;
-  border-bottom: 2px solid black;
+  font-size: 12px;
 }
+
 .slide-in {
     
     animation: slideInAnimation 0.5s ease-in forwards;
@@ -48,6 +49,21 @@
     animation: slideInAnimation 0.5s ease-in forwards;
     transform: translateX(800%);
     animation-delay: .85s;
+  }
+  .slide-in4 {
+    animation: slideInAnimation 0.5s ease-in forwards;
+    transform: translateX(800%);
+    animation-delay: .95s;
+  }
+  .slide-in5 {
+    animation: slideInAnimation 0.5s ease-in forwards;
+    transform: translateX(800%);
+    animation-delay: 1.05s;
+  }
+  .slide-in6 {
+    animation: slideInAnimation 0.5s ease-in forwards;
+    transform: translateX(800%);
+    animation-delay: 1.15s;
   }
 
   .slide-in {
