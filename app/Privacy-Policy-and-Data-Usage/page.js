@@ -1,5 +1,5 @@
 import React from "react";
-import "./About.scss";
+import "./Privacy.scss";
 import {
   Container
 } from "@mui/material";
