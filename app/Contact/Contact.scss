@@ -1,7 +1,7 @@
 #ContactImage{
   padding-top: 100px;
     height: 500px;
-    background-image: url("https://i.imgur.com/aZs4Pnd.jpg");
+    background-image: url("https://i.imgur.com/aIsOrRk.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -11,12 +11,49 @@
 #web-development-SEO-management-contact{
     padding-top: 150px;
     color: white;
-    font-size: 5vw;
+    font-size: 4em;
     text-align: center;
     background-color: transparent;
-    text-shadow: black 0px 0px 30px;
+    text-shadow: black 0px 0px 15px;
   }
-
+#web-development-SEO-management-contact-h2{
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  padding: 15px;
+}
+#web-development-SEO-management-contact-h3{
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  padding: 15px;
+}
+#web-development-SEO-management-contact-p{
+  color: white;
+  padding-bottom: 15px;
+}
+#web-development-SEO-management-contact-ul{
+  color: white;
+  list-style-type: disc;
+  padding: 15px;
+}
+#web-development-SEO-management-contact-li{
+  padding-bottom: 15px;
+}
+#web-development-SEO-management-contact-li-span{
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 2px;
+  font-weight: 900;
+}
+#Contactform{
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
 
   @media screen and (max-width: 1506px) {
 
