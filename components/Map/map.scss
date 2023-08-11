@@ -4,3 +4,18 @@
       height: 282px; 
       z-index: 0;
     }
+    .leaflet-container > * {
+      background-color: transparent !important;
+      }
+span{
+  background-color: transparent !important;
+}
+.leaflet-control-attribution a{
+  background-color: transparent !important;
+}
+.leaflet-pane img{
+  background-color: transparent !important;
+}
+.leaflet-top{
+  background-color: transparent !important;
+}

@@ -29,43 +29,43 @@ const Contact = () => {
         </h3>
         <ul id="web-development-SEO-management-contact-ul">
           <li id="web-development-SEO-management-contact-li">
-            <span id="web-development-SEO-management-contact-li-span">
+            <h4 id="web-development-SEO-management-contact-li-h4">
               Expertise That Matters:
-            </span>{" "}
+            </h4>{" "}
             Our team of seasoned web developers and SEO experts bring a wealth
             of knowledge and experience to the table. From crafting visually
             stunning websites to optimizing them for maximum visibility, we have
             the skills to elevate your digital strategy.
           </li>
           <li id="web-development-SEO-management-contact-li">
-            <span id="web-development-SEO-management-contact-li-span">
+            <h4 id="web-development-SEO-management-contact-li-h4">
               Tailored Solutions:
-            </span>{" "}
+            </h4>{" "}
             We understand that every business is unique. That's why we take a
             personalized approach to each project, crafting solutions that align
             with your goals, industry, and target audience.
           </li>
           <li id="web-development-SEO-management-contact-li">
-            <span id="web-development-SEO-management-contact-li-span">
+            <h4 id="web-development-SEO-management-contact-li-h4">
               Innovation at Heart:
-            </span>{" "}
+            </h4>{" "}
             The digital landscape is constantly evolving, and we thrive on
             staying ahead of the curve. Our innovative mindset drives us to
             explore new technologies, trends, and strategies to keep your online
             presence fresh and relevant.
           </li>
           <li id="web-development-SEO-management-contact-li">
-            <span id="web-development-SEO-management-contact-li-span">
+            <h4 id="web-development-SEO-management-contact-li-h4">
               Results-Driven Approach:
-            </span>{" "}
+            </h4>{" "}
             At ASAP WebDevs, we measure our success by the success of our
             clients. We are driven by tangible outcomes and take pride in
             helping you achieve and exceed your digital objectives.
           </li>
           <li id="web-development-SEO-management-contact-li">
-            <span id="web-development-SEO-management-contact-li-span">
+            <h4 id="web-development-SEO-management-contact-li-h4">
               Transparent Collaboration:
-            </span>{" "}
+            </h4>{" "}
             Communication is at the core of everything we do. We believe in
             fostering transparent and collaborative relationships with our
             clients, ensuring you're always in the loop and empowered to make
