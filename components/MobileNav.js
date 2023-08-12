@@ -19,8 +19,8 @@ const Navbar = () => {
               {/* LOGO */}
               <Link href="/">
                       <Image
-                        src="/asapnewlogo.png"
-                        width={250}
+                        src="/trylogo.svg"
+                        width={350}
                         height={150}
                         alt="ASAP WebDevs Logo"
                       />

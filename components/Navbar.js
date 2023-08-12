@@ -16,8 +16,8 @@ const Navbar = () => {
                 {/* LOGO */}
                 <Link href="/">
                   <Image
-                    src="/asapnewlogo.png"
-                    width={250}
+                    src="/trylogo.svg"
+                    width={350}
                     height={150}
                     alt="ASAP WebDevs Logo"
                   />
@@ -35,19 +35,19 @@ const Navbar = () => {
                 }
               >
                 <ul className="h-screen md:h-auto items-center justify-center md:flex ">
-                  <li className="pb-6 text-xl text-white py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-slate-600  border-white-900   md:hover:bg-transparent">
+                  <li className="pb-2 text-xl text-white py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-slate-600  border-white-900   md:hover:bg-transparent">
                     <Link id="pageLink" href="/About"> About Us</Link>
                   </li>
-                  <li className="pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-slate-600  border-white-900  md:hover:bg-transparent">
+                  <li className="pb-2 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-slate-600  border-white-900  md:hover:bg-transparent">
                     <Link id="pageLink" href="/Our-Work">Our Work</Link>
                   </li>
-                  <li className="pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-slate-600  border-white-900  md:hover:bg-transparent">
+                  <li className="pb-2 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-slate-600  border-white-900  md:hover:bg-transparent">
                     <Link id="pageLink" href="/Services">Services</Link>
                   </li>
-                  <li className="pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-slate-600  border-white-900 md:hover:bg-transparent">
+                  <li className="pb-2 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-slate-600  border-white-900 md:hover:bg-transparent">
                     <Link id="pageLink" href="tel:801-574-1949">801-574-1949</Link>
                   </li>
-                  <li className="pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-slate-600  border-white-900 md:hover:bg-transparent">
+                  <li className="pb-2 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-slate-600  border-white-900 md:hover:bg-transparent">
                     <Link id="pageLink" href="/Contact">Contact</Link>
                   </li>
                 </ul>

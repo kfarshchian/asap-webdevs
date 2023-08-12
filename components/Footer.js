@@ -47,11 +47,11 @@ const Footer = () => {
               }}
             >
               <Image
-                    src="/asaplogo (2).png"
-                    width={250}
-                    height={150}
-                    alt="ASAP WebDevs Logo"
-                  />
+                        src="/trylogo.svg"
+                        width={350}
+                        height={150}
+                        alt="ASAP WebDevs Logo"
+                      />
             </Link>
           </Stack>
           {/* pages */}
@@ -138,7 +138,7 @@ const Footer = () => {
               }}
             >
               <Image
-                    src="/Fb.png"
+                    src="/Facebook.png"
                     width={48}
                     height={48}
                     alt="Facebook Logo"
