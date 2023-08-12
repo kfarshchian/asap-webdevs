@@ -1,11 +1,36 @@
-#web-development-SEO-management-ourwork{
+#ourWorkImage{
+  padding-top: 100px;
+    height: 500px;
+    background-image: url("https://i.imgur.com/t2DcOJw.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+#web-development-SEO-management-OurWork{
     padding-top: 150px;
     color: white;
-    font-size: 5vw;
+    font-size: 4em;
     text-align: center;
+    background-color: transparent;
+    text-shadow: black 0px 0px 15px;
   }
-
-
+#client-img{
+  padding-top: 75px;
+}
+#thisPageLink:hover{
+  font-size: 22px; 
+}
+#thisPageLink{
+  
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: white;
+  padding: 4px 8px 4px 8px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
   @media screen and (max-width: 1506px) {
 
     

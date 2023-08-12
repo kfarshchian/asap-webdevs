@@ -4,16 +4,28 @@ import "./OurWork.scss";
 import {
   Container
 } from "@mui/material";
-
-
+import ZoomImage from "../../components/ZoomImage/ZoomImage";
+import Link from "next/link";
 
 const OurWork = () => {
   return (
     <div id="OurWork">
+      <div id="ourWorkImage">
+        <h1 id="web-development-SEO-management-OurWork">
+        Our Work
+        </h1>
+      </div>
      <Container>
-          <h1 id="web-development-SEO-management-ourwork">
-            Our Work
-          </h1>
+      <div id="client-img">
+     <ZoomImage  src="/1.jpg" alt="Zoomable Image client work" />
+     <Link
+                target="_blank"
+                id="thisPageLink"
+                href="https://www.mortgagekenny.com/"
+              >
+                Check It Out
+              </Link>
+     </div>
       </Container>
     </div>
   )

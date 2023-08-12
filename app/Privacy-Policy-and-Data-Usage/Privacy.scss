@@ -1,10 +1,37 @@
-#web-development-SEO-management-about{
+#privacyImage{
+  padding-top: 100px;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+#web-development-SEO-management-privacy{
     padding-top: 150px;
     color: white;
-    font-size: 5vw;
+    font-size: 4em;
     text-align: center;
+    background-color: transparent;
+    text-shadow: black 0px 0px 15px;
   }
-
+  #web-development-SEO-management-privacy-p{
+    color: white;
+    padding-bottom: 10px;  
+  }
+  #web-development-SEO-management-privacy-h3{
+    color: white;
+    font-size: 2em;
+    padding-bottom: 15px;  
+  }
+  #web-development-SEO-management-privacy-ul{
+    color: white;
+    list-style-type: disc;
+    padding: 15px;
+  }
+  #web-development-SEO-management-privacy-li{
+    padding-bottom: 15px;
+  }
 
   @media screen and (max-width: 1506px) {
 
