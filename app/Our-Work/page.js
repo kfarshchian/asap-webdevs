@@ -18,6 +18,7 @@ const OurWork = () => {
      <Container>
       <div id="client-img">
      <ZoomImage  src="/1.jpg" alt="Zoomable Image client work" />
+     <div id="client-link">
      <Link
                 target="_blank"
                 id="thisPageLink"
@@ -25,6 +26,7 @@ const OurWork = () => {
               >
                 Check It Out
               </Link>
+              </div>
      </div>
       </Container>
     </div>

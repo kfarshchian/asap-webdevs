@@ -1,11 +1,26 @@
-#web-development-SEO-management-about{
+#AboutUsImage{
+  padding-top: 100px;
+    height: 500px;
+    background-image: url("https://i.imgur.com/c6XmpWf.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+#web-development-SEO-management-AboutUs{
     padding-top: 150px;
     color: white;
-    font-size: 5vw;
+    font-size: 4em;
     text-align: center;
+    background-color: transparent;
+    text-shadow: black 0px 0px 15px;
   }
-
-
+  #web-development-SEO-management-AboutUs-mission{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+  }
   @media screen and (max-width: 1506px) {
 
     
