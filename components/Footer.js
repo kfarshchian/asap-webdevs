@@ -138,7 +138,7 @@ const Footer = () => {
               }}
             >
               <Image
-                    src="/Facebook.png"
+                    src="/Fb.png"
                     width={48}
                     height={48}
                     alt="Facebook Logo"
@@ -155,7 +155,7 @@ const Footer = () => {
               }}
             >
               <Image
-                    src="/Instagram.png"
+                    src="/Gram.png"
                     width={48}
                     height={48}
                     alt="Facebook Logo"
@@ -172,7 +172,7 @@ const Footer = () => {
               }}
             >
               <Image
-                    src="/Linkedin.png"
+                    src="/Linked.png"
                     width={48}
                     height={48}
                     alt="Facebook Logo"
@@ -189,7 +189,7 @@ const Footer = () => {
               }}
             >
               <Image
-                    src="/Twitter.png"
+                    src="/Twitt.png"
                     width={48}
                     height={48}
                     alt="Facebook Logo"

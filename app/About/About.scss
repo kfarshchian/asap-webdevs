@@ -21,6 +21,107 @@
     text-align: center;
     padding-top: 25px;
   }
+  #aboutImg{
+    height: 755px;
+    width: 400px;
+    background-color: white;
+  }
+  #aboutImg img{
+    background-color: white;
+    margin-left: 75px;
+  }
+  #stackLinks{
+    display: flex;
+    justify-content: center;
+  }
+  #web-development-SEO-management-AboutUs-ul{
+    // list-style-type: decimal;
+  }
+  #web-development-SEO-management-AboutUs-li{
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+  }
+  #web-development-SEO-management-AboutUs-h2{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  #web-development-SEO-management-AboutUs-h3{
+    background-color: white;
+    font-size: 18px;
+    font-weight: bolder;
+  }
+  #web-development-SEO-management-AboutUs-img-kenny{
+    display: block;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-position: center;
+    background-position: center;
+    width: 200rem;
+}
+#web-development-SEO-management-AboutUs-coOwner{
+  font-size: 30px;
+  color: white;
+}
+#web-development-SEO-management-AboutUs-p{
+  font-size: large;
+  padding-bottom: 20px;
+  color: white;
+}
+#web-development-SEO-management-AboutUs-Container-h2{
+  font-family: 'Rock Salt', cursive !important;
+  color: white;
+  font-size: 35px;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+#web-development-SEO-management-AboutUs-kameron{
+  background-color: white;
+}
+#web-development-SEO-management-AboutUs-Container-stack{
+  background-color: white;
+}
+#web-development-SEO-management-AboutUs-Container-h2-kameron{
+  font-family: 'Rock Salt', cursive !important;
+  background-color: white;
+  font-size: 35px;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+#web-development-SEO-management-AboutUs-img-kameron{
+  display: block;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-position: center;
+  background-position: center;
+  width: 200rem;
+  background-color: white;
+}
+#web-development-SEO-management-AboutUs-p-kameron{
+  font-size: large;
+  padding-bottom: 20px;
+  background-color: white;
+}
+#web-development-SEO-management-AboutUs-coOwner-kameron{
+  font-size: 30px;
+  background-color: white;
+}
+#kameron-container{
+  background-color: white !important;
+}
+#Contactform{
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
   @media screen and (max-width: 1506px) {
 
     
