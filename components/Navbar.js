@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import "./navbar.scss";
 import MobileNav from "./MobileNav";
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+
 
 const Navbar = () => {
   return (
@@ -16,7 +16,7 @@ const Navbar = () => {
                 {/* LOGO */}
                 <Link href="/">
                   <Image
-                    src="/trylogo.svg"
+                    src="/trylogoblue.svg"
                     width={350}
                     height={150}
                     alt="ASAP WebDevs Logo"
