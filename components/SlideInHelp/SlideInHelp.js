@@ -48,7 +48,7 @@ const SlideInHelp = () => {
           <div
             ref={divRef}
             className={isVisible ? "slide-in" : ""}
-            id="slide-in-section"
+            id="slide-in-help-section"
           >
             <ShieldIcon
               sx={{
@@ -60,12 +60,12 @@ const SlideInHelp = () => {
                 marginRight: "4px"
               }}
             />
-            <p id="slide-in-p">Prevent client loss to competitors.</p>
+            <p id="slide-in-help-p">Prevent client loss to competitors.</p>
           </div>
           <div
             ref={divRef}
             className={isVisible ? "slide-in2" : ""}
-            id="slide-in-section"
+            id="slide-in-help-section"
           >
             <ThumbDownOffAltIcon
               sx={{
@@ -77,12 +77,12 @@ const SlideInHelp = () => {
                 marginRight: "4px"
               }}
             />
-            <p id="slide-in-p">Revenue decline hampers operations, causing frustration.</p>
+            <p id="slide-in-help-p">Revenue decline hampers operations, causing frustration.</p>
           </div>
           <div
             ref={divRef}
             className={isVisible ? "slide-in3" : ""}
-            id="slide-in-section"
+            id="slide-in-help-section"
           >
             <EngineeringIcon
               sx={{
@@ -94,12 +94,12 @@ const SlideInHelp = () => {
                 marginRight: "4px"
               }}
             />
-            <p id="slide-in-p">Tailored solutions to regain market strength.</p>
+            <p id="slide-in-help-p">Tailored solutions to regain market strength.</p>
           </div>
           <div
             ref={divRef}
             className={isVisible ? "slide-in4" : ""}
-            id="slide-in-section"
+            id="slide-in-help-section"
           >
             <TrendingUpIcon
               sx={{
@@ -111,7 +111,7 @@ const SlideInHelp = () => {
                 marginRight: "4px"
               }}
             />
-            <p id="slide-in-p">Elevate online presence with our web development & SEO management.</p>
+            <p id="slide-in-help-p">Elevate online presence with our web development & SEO management.</p>
           </div>
         </Stack>
 
