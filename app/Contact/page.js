@@ -10,11 +10,19 @@ const Contact = () => {
       <div id="ContactImage">
         <h1 id="web-development-SEO-management-contact">Contact Us</h1>
       </div>
-      <Container id="serviceHeader">
+      <Container id="serviceHeader" maxWidth="md">
         <h2 id="web-development-SEO-management-contact-h2">
           Welcome to ASAP WebDevs: Your Partner in Digital Excellence
         </h2>
-
+        <Stack
+          direction={{ xs: "column", sm: "row" }}
+          sx={{
+            justifyContent: "center",
+            alignItems: "center",
+            backgroundColor: "black"
+          }}
+          spacing={{ xs: 1, sm: 2, md: 2 }}
+        >
         <p id="web-development-SEO-management-contact-p">
           At ASAP WebDevs, we're not just a web development and SEO company;
           we're your dedicated partners in achieving digital excellence. Our
@@ -24,6 +32,14 @@ const Contact = () => {
           here to guide you through the dynamic world of web development and
           SEO.
         </p>
+        <div>
+            <img
+              id="web-development-SEO-management-contact-img1"
+              src='/Web-Development-SEO-mangment-build.jpg'
+              alt="Web Development and SEO management coding laptop"
+            />
+          </div>
+        </Stack>
         <h3 id="web-development-SEO-management-contact-h3">
           Why Choose ASAP WebDevs?
         </h3>
@@ -75,6 +91,23 @@ const Contact = () => {
         <h3 id="web-development-SEO-management-contact-h3">
           Let's Build Something Extraordinary Together
         </h3>
+        <Stack
+          direction={{ xs: "column", sm: "row" }}
+          sx={{
+            justifyContent: "center",
+            alignItems: "center",
+            backgroundColor: "black"
+          }}
+          spacing={{ xs: 1, sm: 2, md: 2 }}
+        >
+          <div>
+            <img
+              id="web-development-SEO-management-contact-img2"
+              src='/Web-Develoment-build.jpg'
+              alt="Web Development and SEO management coding laptop"
+            />
+          </div>
+          <div>
         <p id="web-development-SEO-management-contact-p">
           Whether you're a startup looking to establish a compelling online
           identity, an established business aiming to revamp your website, or a
@@ -90,6 +123,8 @@ const Contact = () => {
           your transformational journey with ASAP WebDevs. Your success is our
           priority, and we can't wait to help you shine in the digital realm.
         </p>
+        </div>
+        </Stack>
       </Container>
       <Stack
         direction={{ xs: "column", sm: "row" }}
@@ -110,6 +145,16 @@ const Contact = () => {
         <h3 id="web-development-SEO-management-contact-h3">
           Take the First Step Towards Digital Excellence
         </h3>
+        <Stack
+          direction={{ xs: "column", sm: "row" }}
+          sx={{
+            justifyContent: "center",
+            alignItems: "center",
+            backgroundColor: "black"
+          }}
+          spacing={{ xs: 1, sm: 2, md: 2 }}
+        >
+          <div>
         <p id="web-development-SEO-management-contact-p">
           Are you ready to unlock the full potential of your online presence?
           Let's collaborate to create a digital strategy that drives results and
@@ -128,6 +173,16 @@ const Contact = () => {
           embark on this exciting digital adventure together. Your success is
           our priority, and we're committed to making it ASAP.
         </p>
+        </div>
+        <div>
+            <img
+              id="web-development-SEO-management-contact-img2"
+              src='/success.jpg'
+              alt="Web Development and SEO management coding laptop"
+            />
+          </div>
+        </Stack>
+       
       </Container>
     </div>
   );

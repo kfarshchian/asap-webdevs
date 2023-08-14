@@ -3,6 +3,7 @@ import "./About.scss";
 import { Container, Stack } from "@mui/material";
 import Image from "next/image";
 import ContactForm from "@/components/Contact/ContactForm";
+import SlideInHelp from "@/components/SlideInHelp/SlideInHelp";
 
 const About = () => {
   return (
@@ -295,9 +296,21 @@ const About = () => {
           </Container>
         </div>
         {/* contact */}
+        <Stack
+        direction={{ xs: "column", sm: "row" }}
+        id="reverse-mortgage-utah-home-Container-stack"
+        sx={{
+          justifyContent: "center",
+          alignItems: "center",
+          backgroundColor: "White",
+        }}
+        spacing={{ xs: 1, sm: 2, md: 2 }}
+      >
         <div id="Contactform">
           <ContactForm />
         </div>
+        <SlideInHelp/>
+      </Stack>
       </div>
     </div>
   );

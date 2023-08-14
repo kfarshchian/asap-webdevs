@@ -41,8 +41,7 @@
   padding-bottom: 15px;
 }
 #web-development-SEO-management-contact-li-h4{
-  background-color: white;
-  color: black;
+  color:#7DF9FF;
   border-radius: 5px;
   padding: 2px;
   font-weight: 900;
@@ -53,6 +52,30 @@
   background-color: white;
   display: flex;
   justify-content: center;
+}
+#web-development-SEO-management-contact-img1{
+  display: block;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-position: center;
+  background-position: center;
+  width: 150em;
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-bottom: 25px;
+}
+#web-development-SEO-management-contact-img2{
+  display: block;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-position: center;
+  background-position: center;
+  width: 100em;
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-bottom: 25px;
 }
 
   @media screen and (max-width: 1506px) {
