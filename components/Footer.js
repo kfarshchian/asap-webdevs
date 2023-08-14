@@ -47,7 +47,7 @@ const Footer = () => {
               }}
             >
               <Image
-                        src="/trylogo.svg"
+                        src="/trylogoblue.svg"
                         width={350}
                         height={150}
                         alt="ASAP WebDevs Logo"
