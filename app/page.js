@@ -16,6 +16,8 @@ import ScreenSearchDesktopIcon from "@mui/icons-material/ScreenSearchDesktop";
 import IntegrationInstructionsIcon from "@mui/icons-material/IntegrationInstructions";
 import ConstructionIcon from "@mui/icons-material/Construction";
 import NetworkCheckIcon from "@mui/icons-material/NetworkCheck";
+import SlideInContact from "@/components/SlideInContact/SlideInContact";
+import SlideInHelp from "@/components/SlideInHelp/SlideInHelp";
 
 const Home = () => {
   return (
@@ -26,8 +28,15 @@ const Home = () => {
             Web Development and SEO management
           </h1>
         </div>
-        <Container>
-          
+        <Container maxWidth="md">
+        <Stack
+          direction={{ xs: "column", sm: "row" }}
+          sx={{
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+          spacing={{ xs: 1, sm: 2, md: 2 }}
+        >
           <p id="web-development-SEO-management-p">
             Welcome to ASAP WebDevs, your one-stop destination for comprehensive
             web development and SEO management services. We understand that a
@@ -38,15 +47,44 @@ const Home = () => {
             stunning and user-friendly websites to optimizing them for search
             engines, we've got you covered.
           </p>
-          <p id="web-development-SEO-management-p">
-            At ASAP WebDevs, our web development services focus on building
+         
+          <div>
+            <img
+              id="web-development-img"
+              src='/web-development.jpg'
+              alt="web development img"
+            />
+          </div>
+         
+        </Stack>
+        <Stack
+          direction={{ xs: "column", md: "row" }}
+          sx={{
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+          spacing={{ xs: 1, sm: 2, md: 2 }}
+        >
+           <div>
+            <img
+              id="SEO-analysis-img"
+              src='/seoanalysis.jpg'
+              alt="SEO analysis icon"
+            />
+          </div>
+        <p id="web-development-SEO-management-p">
+        At ASAP WebDevs, our web development services focus on building
             modern and responsive websites that captivate your audience and
             convert visitors into loyal customers. Our experienced developers
             leverage the latest technologies and industry best practices to
             deliver cutting-edge solutions that align with your unique business
             goals. Whether you need a brand-new website from scratch or want to
             revamp your existing one, we're here to deliver a seamless online
-            experience that leaves a lasting impression. Additionally, our SEO
+            experience that leaves a lasting impression.
+        </p>
+        </Stack>
+          <p id="web-development-SEO-management-p">
+             Additionally, our SEO
             management services ensure your website gains maximum visibility on
             search engines, driving organic traffic and boosting your online
             rankings. With our expert analysis, keyword research, and content
@@ -203,6 +241,22 @@ const Home = () => {
             Cutting-Edge Web Development, Top-Tier SEO Management, and Much
             Beyond
           </h2>
+          <Stack
+          direction={{ xs: "column", sm: "row" }}
+          sx={{
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+          spacing={{ xs: 1, sm: 2, md: 2 }}
+        >
+           <div>
+            <img
+              id="web-development-SEO-management-img2"
+              src='/web-development-SEO-management.jpg'
+              alt="Computer showing company growth through Web Development and SEO management"
+            />
+          </div>
+          <div>
           <p id="web-development-SEO-management-p">
             Unlock your online potential with our unparalleled digital
             expertise. Our adept team specializes in advanced web development,
@@ -220,6 +274,8 @@ const Home = () => {
             unique goals. Elevate your brand, boost traffic, and surpass
             competitors with our comprehensive digital services.
           </p>
+          </div>
+          </Stack>
           <Link id="thisPageLink" href="/Services">
             Services
           </Link>
@@ -230,6 +286,15 @@ const Home = () => {
               The trust of incredible clients has enabled us to create work that
               fills us with pride
             </h2>
+            <Stack
+          direction={{ xs: "column", sm: "row" }}
+          sx={{
+            justifyContent: "center",
+            alignItems: "center",
+            backgroundColor: "white"
+          }}
+          spacing={{ xs: 1, sm: 2, md: 2 }}
+        >
             <p id="web-development-SEO-management-p-2">
               We derive deep satisfaction from our work due to the exciting
               blend of creativity and technicality that defines both SEO
@@ -245,6 +310,14 @@ const Home = () => {
               making every project a gratifying opportunity to make a lasting
               impact.
             </p>
+            <div>
+            <img
+              id="web-development-SEO-management-img3"
+              src='/huddle.jpg'
+              alt="Computer showing company growth through Web Development and SEO management"
+            />
+          </div>
+            </Stack>
             <Link id="thisPageLink-bg-black" href="/Services">
               Our Work
             </Link>
@@ -279,9 +352,21 @@ const Home = () => {
               </Link>
             </Container>
           </div>
-          <div id="Contactform">
-            <ContactForm />
-          </div>
+          <Stack
+        direction={{ xs: "column", sm: "row" }}
+        id="reverse-mortgage-utah-home-Container-stack"
+        sx={{
+          justifyContent: "center",
+          alignItems: "center",
+          backgroundColor: "White",
+        }}
+        spacing={{ xs: 1, sm: 2, md: 2 }}
+      >
+        <div id="Contactform">
+          <ContactForm />
+        </div>
+        <SlideInHelp/>
+      </Stack>
         </div>
       </div>
     </main>

@@ -1,7 +1,7 @@
 #topImage{
   padding-top: 100px;
     height: 500px;
-    background-image: url("https://i.imgur.com/Dnsl1zK.jpg");
+    background-image: url("https://i.imgur.com/Sg38Jez.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -29,6 +29,7 @@
     padding: 15px;
     margin-left: 10px;
     margin-right: 10px;
+    text-align: justify;
   }
   #web-development-SEO-management-img{
     width: 100%;
@@ -128,25 +129,58 @@
 #cardBody{
     color: white;
 }
-
+#web-development-SEO-management-img2{
+  display: block;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-position: center;
+  background-position: center;
+  width: 200em;
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-bottom: 25px;
+}
+#SEO-analysis-img{
+  display: block;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-position: center;
+  background-position: center;
+  width: 150em;
+  padding-top: 25px;
+  padding-left: 20px;
+}
+#web-development-img{
+  display: block;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-position: center;
+  background-position: center;
+  width: 200em;
+  padding-top: 25px;
+  padding-right: 15px;
+}
 @media screen and (max-width: 1506px) {
-
+  
     
 }
 @media screen and (max-width: 982px) {
     #web-development-SEO-management{
-      font-size: 20px;
+      font-size: 40px;
         font-weight: bold;
       }
     #web-development-SEO-management-h2{
         color: white;
-        font-size: 20px;
+        font-size: 30px;
         text-align: center;
         padding: 15px;
         font-weight: bold;
       }
       #web-development-SEO-management-section-2-h2{
-        font-size: 20px;
+        font-size: 30px;
         text-align: center;
         padding: 15px;
         font-weight: bold;
@@ -158,4 +192,20 @@
         font-weight: bold;
     }
     
+}
+@media screen and (max-width: 382px) {
+#topImage{
+  padding-top: 100px;
+    height: 500px;
+    background-image: url("https://i.imgur.com/hsssUVT.png");
+    background-size: cover;
+    background-position: -80px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    text-align: center;
+    text-shadow: black 0px 0px 15px;
+}
+
 }
