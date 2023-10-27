@@ -193,6 +193,21 @@
     }
     
 }
+@media screen and (max-width: 702px) {
+  #topImage{
+    padding-top: 100px;
+      height: 500px;
+      background-image: url("https://i.imgur.com/hsssUVT.png");
+      background-size: cover;
+      // background-position: -80px;
+      display: flex;
+      flex-direction: column;
+      // justify-content: center;
+      // align-items: center;
+      text-align: center;
+      text-shadow: black 0px 0px 15px;
+  }
+}
 @media screen and (max-width: 382px) {
 #topImage{
   padding-top: 100px;

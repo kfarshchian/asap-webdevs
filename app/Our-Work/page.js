@@ -16,6 +16,20 @@ const OurWork = () => {
         </h1>
       </div>
      <Container>
+      {/* one */}
+      <div id="client-img">
+     <ZoomImage  src="/Lowtility.png" alt="Zoomable Image client work" />
+     <div id="client-link">
+     <Link
+                target="_blank"
+                id="thisPageLink"
+                href="https://solarcalculator.lowtility.com/"
+              >
+                Check It Out
+              </Link>
+              </div>
+     </div>
+      {/* two */}
       <div id="client-img">
      <ZoomImage  src="/1.jpg" alt="Zoomable Image client work" />
      <div id="client-link">

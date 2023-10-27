@@ -328,7 +328,7 @@ const Home = () => {
               Most Recent Client
             </h2>
             <Container>
-              <ZoomImage src="/1.jpg" alt="Zoomable Image client work" />
+              <ZoomImage src="/Lowtility.png" alt="Zoomable Image client work" />
               <p id="web-development-SEO-management-p">
                 A well-optimized webpage with effective SEO can greatly benefit
                 a loan officer by enhancing their online visibility and
@@ -346,7 +346,7 @@ const Home = () => {
               <Link
                 target="_blank"
                 id="thisPageLink"
-                href="https://www.mortgagekenny.com/"
+                href="https://www.lowtility.com/"
               >
                 Check It Out
               </Link>
