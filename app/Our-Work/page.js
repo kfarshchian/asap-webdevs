@@ -30,7 +30,7 @@ const OurWork = () => {
               </div>
      </div>
       {/* two */}
-      <div id="client-img">
+      {/* <div id="client-img">
      <ZoomImage  src="/1.jpg" alt="Zoomable Image client work" />
      <div id="client-link">
      <Link
@@ -41,7 +41,7 @@ const OurWork = () => {
                 Check It Out
               </Link>
               </div>
-     </div>
+     </div> */}
       </Container>
     </div>
   )

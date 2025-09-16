@@ -324,7 +324,7 @@ const Home = () => {
           </Container>
 
           <div id="web-development-SEO-management-section-3">
-            <h2 id="web-development-SEO-management-section-3-h2">
+            {/* <h2 id="web-development-SEO-management-section-3-h2">
               Most Recent Client
             </h2>
             <Container>
@@ -349,8 +349,8 @@ const Home = () => {
                 href="https://www.lowtility.com/"
               >
                 Check It Out
-              </Link>
-            </Container>
+              </Link> */}
+            {/* </Container> */}
           </div>
           <Stack
         direction={{ xs: "column", sm: "row" }}
