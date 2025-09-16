@@ -170,7 +170,7 @@ const About = () => {
           </p>
         </Container>
         {/* kenny section */}
-        <Container maxWidth="md">
+        {/* <Container maxWidth="md">
           <h2 id="web-development-SEO-management-AboutUs-Container-h2">
             Kenny Farshchian
           </h2>
@@ -229,7 +229,7 @@ const About = () => {
             journey is characterized by a harmonious blend of personal and
             professional success.
           </p>
-        </Container>
+        </Container> */}
         <Container></Container>
         {/* kameron section */}
         <div id="web-development-SEO-management-AboutUs-kameron">
@@ -256,7 +256,7 @@ const About = () => {
               </div>
               <div>
                 <h2 id="web-development-SEO-management-AboutUs-coOwner-kameron">
-                  Co-Founder and Co-Owner
+                  Owner
                 </h2>
 
                 <p id="web-development-SEO-management-AboutUs-p-kameron">
